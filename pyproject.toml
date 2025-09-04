@@ -14,6 +14,12 @@ packages = [
   { include = "primepackage", from = "src" }
 ]
 
+include = [
+  { path = "README.md", format = "sdist" },
+  { path = "LICENSE", format = "sdist" },
+  { path = "data/*.csv", format = "sdist" }
+]
+
 # List of Dependencies
 [tool.poetry.dependencies]
 python = "^3.10"
