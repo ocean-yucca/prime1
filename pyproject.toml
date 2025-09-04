@@ -22,7 +22,7 @@ pandas = "^2.0"
 matplotlib = "^3.10.6"
 
 [tool.poetry.scripts]
-myprimes = "generator:main"
+myprimes = "primepackage.generator:main"
 
 # Dev extras
 [tool.poetry.group.dev.dependencies]

@@ -25,6 +25,3 @@ def main():
         print(prime_list)
     except IOError as err:
         print(err)
-
-if __name__ == '__main__':
-    main()
