@@ -31,9 +31,33 @@ poetry.lock
 This project uses [Poetry](https://python-poetry.org/) for packaging and
 dependency management.
 
-```bash
-poetry install
-```
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/ocean-yucca/prime1.git
+   cd prime1
+   ```
+
+2. Install Poetry if it is not already available:
+
+   ```bash
+   python -m pip install poetry
+   ```
+
+3. Install the package and its dependencies:
+
+   ```bash
+   poetry install
+   ```
+
+4. Verify the installation by running the tests:
+
+   ```bash
+   poetry run pytest
+   ```
+
+After installation, run all commands from the repository root so Poetry can use
+the environment defined by `pyproject.toml` and `poetry.lock`.
 
 ## Usage
 
